@@ -41,7 +41,7 @@ const Dashboard = () => {
                 <div className="w-12 h-12 rounded-full bg-police-blue/10 flex items-center justify-center mb-3">
                   <User className="h-6 w-6 text-police-blue" />
                 </div>
-                <h3 className="font-semibold">Profile</h3>
+                <h3 className="font-semibold bg-black text-white">Profile</h3>
                 <p className="text-sm text-gray-500 text-center mt-1">
                   View and edit your personal details
                 </p>
@@ -55,7 +55,7 @@ const Dashboard = () => {
                 <div className="w-12 h-12 rounded-full bg-police-blue/10 flex items-center justify-center mb-3">
                   <Trophy className="h-6 w-6 text-police-blue" />
                 </div>
-                <h3 className="font-semibold bg-black text-white px-2 py-1 rounded">Sports</h3>
+                <h3 className="font-semibold bg-black text-white px-2 py-1 rounded" >Sports</h3>
                 <p className="text-sm text-gray-500 text-center mt-1">
                   Manage your sports and events
                 </p>
@@ -69,7 +69,7 @@ const Dashboard = () => {
                 <div className="w-12 h-12 rounded-full bg-police-blue/10 flex items-center justify-center mb-3">
                   <Award className="h-6 w-6 text-police-blue" />
                 </div>
-                <h3 className="font-semibold">Achievements</h3>
+                <h3 className="font-semibold bg-black text-white">Achievements</h3>
                 <p className="text-sm text-gray-500 text-center mt-1">
                   View your performance records
                 </p>
@@ -83,7 +83,7 @@ const Dashboard = () => {
                 <div className="w-12 h-12 rounded-full bg-police-blue/10 flex items-center justify-center mb-3">
                   <Calendar className="h-6 w-6 text-police-blue" />
                 </div>
-                <h3 className="font-semibold">Calendar</h3>
+                <h3 className="font-semibold bg-black text-white">Calendar</h3>
                 <p className="text-sm text-gray-500 text-center mt-1">
                   View upcoming events and schedules
                 </p>
@@ -104,7 +104,7 @@ const Dashboard = () => {
                 </div>
               </div>
               <div className="flex-1">
-                <h3 className="font-semibold text-lg">68th All India Police Hockey Championship</h3>
+                <h3 className="font-semibold text-lg bg-black text-white">68th All India Police Hockey Championship</h3>
                 <p className="text-gray-600">April 15-25, 2025 | Delhi</p>
                 <div className="mt-2 flex flex-wrap gap-2">
                   <span className="text-xs px-2 py-1 bg-police-blue/10 text-police-blue rounded-full">Hockey</span>
@@ -118,7 +118,7 @@ const Dashboard = () => {
           </DataCard>
           
           <DataCard>
-            <h3 className="font-semibold mb-4">Your Medal Count</h3>
+            <h3 className="font-semibold mb-4 bg-black text-white">Your Medal Count</h3>
             <div className="flex justify-around">
               <div className="flex flex-col items-center">
                 <div className="w-10 h-10 rounded-full bg-yellow-500 flex items-center justify-center mb-1">
