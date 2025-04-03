@@ -1,10 +1,11 @@
 
+import React from "react";
 import { useState } from "react";
 import Dashboard from "@/components/Dashboard";
 import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
 
-const Index = () => {
+const Index: React.FC = () => {
   const [sidebarOpen, setSidebarOpen] = useState(true);
   
   const toggleSidebar = () => {

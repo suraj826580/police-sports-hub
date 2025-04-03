@@ -1,10 +1,11 @@
 
+import React from "react";
 import { useState } from "react";
 import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
 import SportsSection from "@/components/SportsSection";
 
-const Sports = () => {
+const Sports: React.FC = () => {
   const [sidebarOpen, setSidebarOpen] = useState(true);
   
   const toggleSidebar = () => {

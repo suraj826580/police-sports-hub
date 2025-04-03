@@ -1,6 +1,6 @@
 
-import { cn } from "@/lib/utils";
 import React from "react";
+import { cn } from "@/lib/utils";
 
 interface DataCardProps {
   title?: string;
@@ -9,12 +9,12 @@ interface DataCardProps {
   titleClassName?: string;
 }
 
-const DataCard = ({ 
+const DataCard: React.FC<DataCardProps> = ({ 
   title, 
   children, 
   className,
   titleClassName
-}: DataCardProps) => {
+}) => {
   return (
     <div className={cn("police-card p-4", className)}>
       {title && (
