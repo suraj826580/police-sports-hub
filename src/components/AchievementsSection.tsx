@@ -1,4 +1,3 @@
-
 import DataCard from "@/components/ui/DataCard";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -7,7 +6,7 @@ import { Award, BarChart, Calendar, Download, Flag, Medal, Star, Trophy } from "
 const AchievementsSection = () => {
   return (
     <div className="animate-fade-in">
-      <h1 className="text-2xl font-bold mb-6 text-police-blue">Performance & Achievements</h1>
+      <h1 className="text-2xl font-bold mb-6 text-black">Performance & Achievements</h1>
       
       <Tabs defaultValue="history" className="w-full">
         <TabsList className="w-full bg-white shadow-sm mb-6 rounded-lg p-1">
@@ -21,7 +20,7 @@ const AchievementsSection = () => {
           <div className="mb-6">
             <DataCard>
               <div className="flex justify-between items-center mb-4">
-                <h3 className="font-semibold flex items-center gap-2">
+                <h3 className="font-bold text-black flex items-center gap-2">
                   <Flag className="h-5 w-5 text-police-blue" />
                   Event Participation History
                 </h3>
@@ -94,7 +93,7 @@ const AchievementsSection = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <DataCard>
-              <h3 className="font-semibold mb-4 flex items-center gap-2">
+              <h3 className="font-bold text-black mb-4 flex items-center gap-2">
                 <Calendar className="h-5 w-5 text-police-blue" />
                 Upcoming Participation
               </h3>
@@ -121,7 +120,7 @@ const AchievementsSection = () => {
             </DataCard>
             
             <DataCard>
-              <h3 className="font-semibold mb-4 flex items-center gap-2">
+              <h3 className="font-bold text-black mb-4 flex items-center gap-2">
                 <BarChart className="h-5 w-5 text-police-blue" />
                 Performance Summary
               </h3>
@@ -154,7 +153,7 @@ const AchievementsSection = () => {
         <TabsContent value="awards">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <DataCard>
-              <h3 className="font-semibold mb-4 flex items-center gap-2">
+              <h3 className="font-bold text-black mb-4 flex items-center gap-2">
                 <Award className="h-5 w-5 text-police-blue" />
                 Awards & Recognitions
               </h3>
@@ -193,7 +192,7 @@ const AchievementsSection = () => {
             </DataCard>
             
             <DataCard>
-              <h3 className="font-semibold mb-4 flex items-center gap-2">
+              <h3 className="font-bold text-black mb-4 flex items-center gap-2">
                 <Star className="h-5 w-5 text-police-blue" />
                 Special Recognitions
               </h3>
@@ -227,7 +226,7 @@ const AchievementsSection = () => {
         
         <TabsContent value="records">
           <DataCard>
-            <h3 className="font-semibold mb-4 flex items-center gap-2">
+            <h3 className="font-bold text-black mb-4 flex items-center gap-2">
               <Trophy className="h-5 w-5 text-police-blue" />
               Athletic Records
             </h3>
@@ -280,7 +279,7 @@ const AchievementsSection = () => {
         <TabsContent value="medals">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <DataCard>
-              <h3 className="font-semibold mb-3 flex items-center gap-2">
+              <h3 className="font-bold text-black mb-3 flex items-center gap-2">
                 <Medal className="h-5 w-5 text-yellow-500" />
                 Gold Medals
               </h3>
@@ -314,7 +313,7 @@ const AchievementsSection = () => {
             </DataCard>
             
             <DataCard>
-              <h3 className="font-semibold mb-3 flex items-center gap-2">
+              <h3 className="font-bold text-black mb-3 flex items-center gap-2">
                 <Medal className="h-5 w-5 text-gray-400" />
                 Silver Medals
               </h3>
@@ -338,7 +337,7 @@ const AchievementsSection = () => {
             </DataCard>
             
             <DataCard>
-              <h3 className="font-semibold mb-3 flex items-center gap-2">
+              <h3 className="font-bold text-black mb-3 flex items-center gap-2">
                 <Medal className="h-5 w-5 text-amber-700" />
                 Bronze Medals
               </h3>
