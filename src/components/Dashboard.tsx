@@ -1,4 +1,4 @@
-
+import React from "react";
 import DataCard from "@/components/ui/DataCard";
 import { Button } from "@/components/ui/button";
 import { Award, Calendar, Medal, Trophy, User } from "lucide-react";
@@ -31,7 +31,7 @@ const Dashboard = () => {
           </div>
         </div>
       </section>
-
+      
       <section className="mb-8">
         <h2 className="section-heading text-police-blue">Quick Access</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
@@ -55,7 +55,7 @@ const Dashboard = () => {
                 <div className="w-12 h-12 rounded-full bg-police-blue/10 flex items-center justify-center mb-3">
                   <Trophy className="h-6 w-6 text-police-blue" />
                 </div>
-                <h3 className="font-semibold">Sports</h3>
+                <h3 className="font-semibold bg-black text-white px-2 py-1 rounded">Sports</h3>
                 <p className="text-sm text-gray-500 text-center mt-1">
                   Manage your sports and events
                 </p>
