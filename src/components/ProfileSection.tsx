@@ -19,7 +19,7 @@ const ProfileSection = () => {
           </div>
           
           <div className="ml-28 -mt-2">
-            <h1 className="text-2xl font-bold">Athlete Name</h1>
+            <h1 className="text-2xl font-bold text-black">Athlete Name</h1>
             <p className="text-gray-600">Delhi Police</p>
           </div>
           
@@ -39,7 +39,7 @@ const ProfileSection = () => {
         <TabsContent value="personal">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <DataCard className="h-full">
-              <h3 className="section-subheading flex items-center gap-2 text-police-blue">
+              <h3 className="section-subheading flex items-center gap-2 text-police-blue font-bold text-black">
                 <User className="h-5 w-5" />
                 Personal Information
               </h3>
@@ -83,7 +83,7 @@ const ProfileSection = () => {
             </DataCard>
             
             <DataCard className="h-full">
-              <h3 className="section-subheading flex items-center gap-2 text-police-blue">
+              <h3 className="section-subheading flex items-center gap-2 text-police-blue font-bold text-black">
                 <User className="h-5 w-5" />
                 Photograph & Identity
               </h3>
@@ -100,7 +100,7 @@ const ProfileSection = () => {
         
         <TabsContent value="contact">
           <DataCard>
-            <h3 className="section-subheading flex items-center gap-2 text-police-blue">
+            <h3 className="section-subheading flex items-center gap-2 text-police-blue font-bold text-black">
               <Phone className="h-5 w-5" />
               Contact Information
             </h3>
@@ -164,7 +164,7 @@ const ProfileSection = () => {
         
         <TabsContent value="service">
           <DataCard>
-            <h3 className="section-subheading flex items-center gap-2 text-police-blue">
+            <h3 className="section-subheading flex items-center gap-2 text-police-blue font-bold text-black">
               <Briefcase className="h-5 w-5" />
               Service Details
             </h3>

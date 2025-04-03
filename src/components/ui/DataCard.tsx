@@ -18,7 +18,7 @@ const DataCard: React.FC<DataCardProps> = ({
   return (
     <div className={cn("police-card p-4", className)}>
       {title && (
-        <h3 className={cn("font-semibold text-lg mb-2", titleClassName)}>
+        <h3 className={cn("font-bold text-lg mb-2 text-black", titleClassName)}>
           {title}
         </h3>
       )}
